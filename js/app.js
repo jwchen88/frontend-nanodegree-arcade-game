@@ -84,7 +84,7 @@ class Player {
     }
 
     //player can't be out of the game board
-    if(this.y<=20){
+    if(this.y<-20){
       this.y=-20;
       alert('WIN');
     }
